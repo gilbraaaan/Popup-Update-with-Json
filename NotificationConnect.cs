@@ -13,7 +13,8 @@ public class NotificationConnect : MonoBehaviour
     [SerializeField] TextMeshProUGUI uiDescriptionText;
     [Space(20f)]
     [Header("Get Json :")]
-    [SerializeField][TextArea(1, 5)] string jsonDataUrl = "https://github.com/MGEkaPawitra/Upgrade-Popup-Notification-with-Json/blob/main/game-data.json";
+    [SerializeField][TextArea(1, 5)] 
+    string jsonDataUrl = "https://raw.githubusercontent.com/gilbraaaan/Upgrade-Popup-Notification-with-Json/main/CheckVersion.json";
     GameData latestGameData;
 
     void Start()
